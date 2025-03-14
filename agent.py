@@ -8,7 +8,7 @@ from helper import plot
 from game import SnakeGameAI, Direction, Point
 
 MAX_MEMORY = 100_000
-BATCH_SIZE = 1000
+BATCH_SIZE = 10000
 LR = 0.001
 
 class Agent:
@@ -142,9 +142,6 @@ def train():
             plot_mean_scores.append(mean_score)
             plot(plot_scores, plot_mean_scores)
 
-
-if __name__ == '__main__':
-    train()
 
 if __name__ == '__main__':
     train()
