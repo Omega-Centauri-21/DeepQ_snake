@@ -36,3 +36,19 @@ food left, food right,
 food up, food down
 ]
 ```
+
+### TO Run
+
+Clone the repo
+```bash
+git clone https://github.com/Omega-Centauri-21/DeepQ_snake.git
+```
+Install the requirements
+```bash
+pip install requirements.txt
+```
+
+And enjoy
+```bash
+python3 agent.py
+```
